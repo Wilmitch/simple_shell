@@ -1,8 +1,8 @@
-.TH SHELL 1 "NOVEMBER 15, 2023"  "alx-software-engineering-School" "0x16"
+.THE SHELL "NOVEMBER 15, 2023"  "alx-software-engineering-School" "0x16"
  "1.01" "C - simple_shell - man page"
 
 .SH NAME
-.B simple_shell \- simple UNIX command interpreter made in C 
+.B simple_shell \- simple UNIX command interpreter made in C
 
 .SH SYNOPSIS
 $ /hsh [options] [file]

@@ -1,5 +1,5 @@
-#ifndef _SHELL_H_
-#define _SHELL_H_
+#ifndef SHELL_H
+#define SHELL_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,10 +22,9 @@
 #define min(x, y) (((x) < (y)) ? (x) : (y))
 
 /**
- *struct map - a struct that maps a command name to a function 
- *
- *@command_name: name of the command
- *@func: the function that executes the command
+ * struct map - a struct that maps a command name to a function
+ * @command_name: name of the command
+ * @func: the function that executes the command
  */
 
 typedef struct map
@@ -76,4 +75,4 @@ void quit(char **);
 extern void non_interactive(void);
 extern void initializer(char **current_command, int type_command);
 
-#endif
+#endif /*SHELL_H*/
